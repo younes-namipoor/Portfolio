@@ -22,10 +22,9 @@ export default function Photo() {
         >
           <Image
             src="/1.png"
-            priority
-            fill
+            width={100}
+            height={100}
             alt=""
-            quality={100}
             className="object-contain rounded-full"
           />
         </motion.div>
