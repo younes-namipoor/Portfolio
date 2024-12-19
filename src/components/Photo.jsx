@@ -21,7 +21,7 @@ export default function Photo() {
           className="w-[298px] h-[298px]  xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="https://uploadkon.ir/uploads/b64e19_241.jpg"
+            src="https://uploadkon.ir/uploads/64ea19_241.png"
             priority
             fill
             alt=""
