@@ -20,12 +20,11 @@ export default function Photo() {
           }}
           className="w-[298px] h-[298px]  xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
-          <Image
+          <img
             src="/1.png"
-            width={100}
-            height={100}
+            
             alt=""
-            className="object-contain rounded-full"
+            className="object-contain rounded-full w-full h-full"
           />
         </motion.div>
         <motion.svg
