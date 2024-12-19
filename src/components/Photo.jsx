@@ -20,11 +20,13 @@ export default function Photo() {
           }}
           className="w-[298px] h-[298px]  xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
-          <img
-            src="/1.png"
-            
+          <Image
+            src="https://uploadkon.ir/uploads/b64e19_241.jpg"
+            priority
+            fill
             alt=""
-            className="object-contain rounded-full w-full h-full"
+            quality={100}
+            className="object-contain rounded-full"
           />
         </motion.div>
         <motion.svg
